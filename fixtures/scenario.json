@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "fields": [
+    "region",
+    "period",
+    "metric",
+    "definition",
+    "resource",
+    "value",
+    "revision"
+  ],
+  "records": [
+    {
+      "region": "north",
+      "period": "2025",
+      "metric": "available",
+      "definition": "d1",
+      "resource": "ds-a",
+      "value": "12",
+      "revision": "1"
+    },
+    {
+      "region": "south",
+      "period": "2025",
+      "metric": "available",
+      "definition": "d1",
+      "resource": "ds-b",
+      "value": "8",
+      "revision": "1"
+    },
+    {
+      "region": "east",
+      "period": "2025",
+      "metric": "usage",
+      "definition": "d2",
+      "resource": "ds-a",
+      "value": "4",
+      "revision": "2"
+    },
+    {
+      "region": "north",
+      "period": "2025",
+      "metric": "usage",
+      "definition": "d2",
+      "resource": "ds-a",
+      "value": "3",
+      "revision": "2"
+    }
+  ]
+}
